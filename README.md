@@ -4,7 +4,7 @@
 cd Pricing-Module
 
 1. Set Up Virtual Environment
-python -m venv env
+python3 -m venv env
 source env/bin/activate  # or `env\Scripts\activate` on Windows
 
 3. Install Dependencies
@@ -18,8 +18,7 @@ cd pricing_module
   password:- supriya@123
 
 6. Run the Development Server
-
-python manage.py runserver
+python3 manage.py runserver
 Now visit: http://127.0.0.1:8000/admin/ to log in to the Django admin.
 and for price calculation; http://127.0.0.1:8000/api/calculate-price/ 
 
