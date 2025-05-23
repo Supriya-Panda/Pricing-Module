@@ -1,16 +1,17 @@
-# Ignore Python virtual environments
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
 venv/
 .env/
 
-# Ignore compiled Python files
-__pycache__/
-*.pyc
-
-# Ignore build artifacts
+# Distribution / packaging
 build/
 dist/
 *.egg-info/
 
-# Ignore IDE/editor configurations
+# IDEs and editors
 .vscode/
 .idea/
